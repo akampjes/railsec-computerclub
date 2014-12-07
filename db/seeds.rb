@@ -19,3 +19,11 @@ puts 'CREATED ADMIN USER: ' << user.email
   print 'u'
 end
 
+User.create(
+    email: 'computerclubadmin@example.org',
+    password: 'correcthorsebatterystable',
+    password_confirmation: 'correcthorsebatterystable',
+    name: 'adminpants',
+    homepage: 'computerclub.example.com'
+)
+print 'a'
