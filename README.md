@@ -1,4 +1,4 @@
-Warmup
+Computer club
 ================
 
 `computerclubadmin@example.org` will try and login every 15 seconds and click
