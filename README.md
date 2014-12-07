@@ -3,7 +3,9 @@ Warmup
 
 `computerclubadmin@example.org` will try and login every 15 seconds and click
 on the latest user's home page in the list of users
-(mr adminpants is a bit twitchy).
+(adminpants is a bit twitchy).
+
+Lets get their session.
 
 Ruby on Rails
 -------------
