@@ -18,6 +18,7 @@ This application requires:
 Getting Started
 ---------------
 
+You will want the plugin `EditThisCookie` or similar to insert the session.
 Make sure that you have [phantomjs](http://phantomjs.org/download.html) installed first and then:
 
 ~~~bash
