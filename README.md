@@ -18,7 +18,7 @@ This application requires:
 Getting Started
 ---------------
 
-Make sure that you have phantomjs installed first and then:
+Make sure that you have [phantomjs](http://phantomjs.org/download.html) installed first and then:
 
 ~~~bash
 bundle install
