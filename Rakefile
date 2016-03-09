@@ -10,6 +10,7 @@ ADMIN_PASSWORD = 'correcthorsebatterystable'
 
 task :admin_user_simulation do
   require 'capybara'
+  require 'capybara/dsl'
   require 'capybara/poltergeist'
   include Capybara::DSL
   Capybara.default_driver = :poltergeist
@@ -18,6 +19,8 @@ task :admin_user_simulation do
 
   # Sign in as an admin user every so often
   while true
+    puts 'Admin twitch'
+
     page.driver.browser.reset
     visit '/'
     click_link 'Sign in'
