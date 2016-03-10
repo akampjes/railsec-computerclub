@@ -171,7 +171,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise
   faker
-  foundation-rails
+  foundation-rails (= 5.4.5.0)
   hub
   jbuilder (~> 2.0)
   jquery-rails
